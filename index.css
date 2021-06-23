@@ -25,3 +25,7 @@
 .header__button--2 {
     width: 50px;
 }
+.main__slider-image {
+    width: 100%;
+    height: auto;
+}
