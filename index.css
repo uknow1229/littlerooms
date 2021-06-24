@@ -82,6 +82,9 @@
     font-weight: 900;
     font-style: oblique;
     opacity: 0, 8;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .content__product--1 {
