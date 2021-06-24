@@ -74,3 +74,16 @@
     text-align: center;
     line-height: 300px;
 }
+
+.content__product--1 {
+    background-image: url(image/design/Design_simple.jpg);
+}
+.content__product--2 {
+    background-image: url(image/design/Design_natural.jpg);
+}
+.content__product--3 {
+    background-image: url(image/design/Design_girly.jpg);
+}
+.content__product--4 {
+    background-image: url(image/design/Design_chic.jpg);
+}
