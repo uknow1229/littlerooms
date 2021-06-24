@@ -9,7 +9,8 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
-    margin-top: 20px;
+    margin-top: 10px;
+    background-color: red;
 }
 /* .header__menu {} */
 .header__menu-icon {
@@ -51,16 +52,20 @@
     color: lightgoldenrodyellow;
     background-color: orange;
 }
+.block__descriptions {
+    justify-content: flex-start;
+}
 .block__description {
     margin: -20px 0 0 0;
     font-size: 13px;
     color: gray;
-    background-color: blue;
-    justify-content: space-around;
-    display: flex;
-}
-.block__content {
-    background-color: red;
+    background-color: greenyellow;
 }
 .block__description--date {
+    padding: 8px;
+}
+
+.block__content {
+    background-color: red;
+    height: 300px;
 }
