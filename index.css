@@ -66,13 +66,17 @@
 }
 
 .block__content {
-    flex-wrap: wrap;
     display: flex;
+    flex-wrap: wrap;
 }
 .content__product {
+    /* text-align: center;
+    line-height: 300px; */
     width: 50%;
-    text-align: center;
-    line-height: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content__product--1 {
