@@ -66,6 +66,11 @@
 }
 
 .block__content {
-    background-color: red;
-    height: 300px;
+    flex-wrap: wrap;
+    display: flex;
+}
+.content__product {
+    width: 50%;
+    text-align: center;
+    line-height: 300px;
 }
