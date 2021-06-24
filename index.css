@@ -85,8 +85,11 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition: all 0.1s ease-in-out;
 }
-
+.content__product:hover {
+    font-size: 2em;
+}
 .content__product--1 {
     background-image: url(image/design/Design_simple.jpg);
 }
