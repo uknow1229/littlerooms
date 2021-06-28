@@ -43,6 +43,7 @@
 }
 .main__block {
     margin: 50px 0px;
+    /* margin: 16px 0px 16px 0px; */
 }
 .block__textbox {
     margin: 32px 0 20px 0;
@@ -81,7 +82,7 @@
     font-size: 25px;
     font-weight: 900;
     font-style: oblique;
-    opacity: 0, 8;
+    opacity: 0.85;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,10 +104,6 @@
     background-image: url(image/pickup/Design_chic.jpg);
 }
 /* .main__block--2{} */
-
-.content__text-product {
-    flex: 50% 0 1;
-}
 .content__text-product--1 {
 }
 .content__text-product--2 {
@@ -121,14 +118,28 @@
 }
 
 /* div tag */
+.content__text-product:hover .text-product__image-box {
+    transform: scale(1.5);
+}
 
 .text-product__image-box {
     width: 100%;
-    height: 250px;
+    height: 230px;
     overflow: hidden;
 }
 .image-box_img {
     width: 100%;
     height: 100%;
+    overflow: hidden;
     object-fit: cover;
+    transition: all 0.4s linear;
+    /* cubic-bezier(1, 0.43, 0.21, 0.97); */
+}
+.content__text-product {
+    width: 50%;
+    flex-basis: 50%;
+    margin: 0px auto;
+    overflow: hidden;
+    /* padding: 0 10px 0 10px; */
+    box-sizing: border-box;
 }
