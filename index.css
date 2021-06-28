@@ -118,7 +118,7 @@
 }
 
 /* div tag */
-.content__text-product:hover .text-product__image-box {
+.content__text-product:hover .text-product__image-box .image-box_img {
     transform: scale(1.5);
 }
 
@@ -132,7 +132,7 @@
     height: 100%;
     overflow: hidden;
     object-fit: cover;
-    transition: all 0.4s linear;
+    transition: all 0.4s ease-in-out;
     /* cubic-bezier(1, 0.43, 0.21, 0.97); */
 }
 .content__text-product {
@@ -140,6 +140,6 @@
     flex-basis: 50%;
     margin: 0px auto;
     overflow: hidden;
-    /* padding: 0 10px 0 10px; */
+    padding: 0 10px 0 10px;
     box-sizing: border-box;
 }
