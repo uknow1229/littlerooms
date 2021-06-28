@@ -103,6 +103,10 @@
     background-image: url(image/pickup/Design_chic.jpg);
 }
 /* .main__block--2{} */
+
+.content__text-product {
+    flex: 50% 0 1;
+}
 .content__text-product--1 {
 }
 .content__text-product--2 {
@@ -115,7 +119,16 @@
 }
 .content__text-product--6 {
 }
+
+/* div tag */
+
 .text-product__image-box {
+    width: 100%;
+    height: 300px;'`
+    overflow: hidden;
 }
 .image-box_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
