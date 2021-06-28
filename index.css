@@ -183,3 +183,6 @@
 .view_all_btn {
     display: flex;
 }
+.footer__menu {
+    text-align: center;
+}
