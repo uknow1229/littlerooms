@@ -138,6 +138,7 @@
     /* object-fit: cover; */
     transition: all 0.4s ease-in;
     /* cubic-bezier(1, 0.43, 0.21, 0.97); */
+    /* position: absolute; */
 }
 .content__text-product {
     padding: 0px 10px;
@@ -150,4 +151,35 @@
 }
 .content__text-product--1 .text-product__text__box {
     text-decoration: line-through;
+}
+.text-product__subtitle {
+    color: #ccc;
+}
+.text-product__title {
+    color: #4c4444;
+}
+.text-product__color {
+    color: #999;
+}
+.text-product__price {
+    color: #666;
+}
+.text-product__sold {
+}
+.main__block--2 button {
+    width: 80%;
+    margin: 30px auto;
+    background-color: #5579b3;
+    color: #fff;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 100px;
+    font-family: "Montserrat";
+    cursor: pointer;
+}
+.main__block--2 button:active {
+    transform: scale(0.9);
+}
+.view_all_btn {
+    display: flex;
 }
