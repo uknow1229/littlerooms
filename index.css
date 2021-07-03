@@ -10,7 +10,6 @@
     align-items: center;
     padding: 20px 0;
     margin-top: 10px;
-    background-color: red;
 }
 /* .header__menu {} */
 .header__menu-icon {
@@ -51,7 +50,6 @@
 .block__title {
     font-size: 32px;
     color: lightgoldenrodyellow;
-    background-color: orange;
 }
 .block__descriptions {
     justify-content: flex-start;
@@ -60,7 +58,6 @@
     margin: -20px 0 0 0;
     font-size: 13px;
     color: gray;
-    background-color: greenyellow;
 }
 .block__description--date {
     padding: 8px;
@@ -183,6 +180,72 @@
 .view_all_btn {
     display: flex;
 }
+
+/* block--3 magazine  */
+.main__block--3 {
+}
+/*block__textbox 
+    block__title
+    block__description
+    block__description--date
+    block__content
+*/
+.magazine__image-box {
+}
+/*main__slider-image */
+.magazine__text--box {
+}
+.magazine__text--text {
+}
+.magazine__text--date {
+}
+.magazine__main--wrapper {
+}
+
+.magazine__main {
+}
+.magazine__img--box {
+}
+.magazine__img {
+}
+
+.magzine__main--1 {
+}
+.magzine__main--2 {
+}
+.magzine__main--3 {
+}
+.magzine__main--4 {
+}
+.magzine__main--5 {
+}
+.magzine__main--6 {
+}
+
 .footer__menu {
+    display: flex;
     text-align: center;
+    gap: 10px;
+    column-gap: 10px;
+    /* flex-direction: column; */
+}
+.footer__menu--1 {
+    flex-direction: column;
+    border-right: 1px solid gray;
+
+    /* display: flex; */
+    /* width: 50%; */
+    /* float: left; */
+    /* box-sizing: border-box; */
+}
+.footer__menu--2 {
+    flex-direction: column;
+
+    /* width: 50%; */
+    /* float: right; */
+    /* box-sizing: border-box; */
+}
+.menu-item--1 {
+}
+.menu-item--2 {
 }
